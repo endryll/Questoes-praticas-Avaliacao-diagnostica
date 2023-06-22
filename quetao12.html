@@ -8,10 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-<!-- #Para fazer a estilização de um arquivo html é utilizado o style para fazer a estilização da página web -->
+<!-- #Exercíco 13: Para fazer a estilização de um arquivo html é utilizado o style para fazer a estilização da página web, os seletores sao h1, p e br entre outros -->
 
     <style>
 
+        /* #exercicio14 */
         .titulo {
             color: plum;
             text-align: center;
@@ -25,6 +26,7 @@
             width: 500px;
         }
 
+        /* #exercicio14 */
         p {
             font-size: 20px;
         }
@@ -32,6 +34,21 @@
         .listas {
             display: flex;
             flex-wrap: nowrap;
+        }
+
+        /* #exercicio14 */
+        body {
+            font-family: cursive;
+        }
+
+        /* #exercicio14 */
+        #lista1 {
+            color: blue;
+        }
+
+        /* #exercicio14 */
+        #lista2 {
+            color: blueviolet;
         }
 
     </style>
@@ -44,6 +61,7 @@
     </div>
 
     <div class="img">
+        <!-- #exercicio 14 -->
         <a href="https://www.coca-cola.com.br/"><img id="imagens" src="imagem/Coca-cola_3d_logo.png" alt=""></a>
         <p>Clique na imagem</p>
     </div>
@@ -51,7 +69,7 @@
     <div class="lista">
         <div>
             <h2>lista 1</h2>
-            <ul>
+            <ul id="lista1">
 
                 <li>pão</li>
                 <li>pão com requeijão</li>
@@ -63,7 +81,7 @@
 
         <div>
             <h2>lista 2</h2>
-            <ol>
+            <ol id="lista2">
 
                 <li>pão</li>
                 <li>pão com requeijão</li>
