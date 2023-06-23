@@ -24,6 +24,7 @@
 
         #imagens {
             width: 500px;
+
         }
 
         /* #exercicio14 */
@@ -33,7 +34,8 @@
 
         .listas {
             display: flex;
-            flex-wrap: nowrap;
+            flex-direction: row;
+            justify-content: center;
         }
 
         /* #exercicio14 */
@@ -51,6 +53,30 @@
             color: blueviolet;
         }
 
+        /* #ecercicio15 */
+        .navbar {
+            display: flex;
+            justify-content: center;
+        }
+
+        /* #ecercicio15 e 16 */
+        #buttonNavbar {
+            background-color: plum;
+            border-radius: 7px;
+            margin-left: 20px;
+            border: black 2px solid;
+            width: 100px;
+            height: 50px;
+            padding: 10px;
+        }
+
+        /* #exercicio18 */
+        #buttonNavbar:hover {
+            background-color: rgba(221, 160, 221, 0.632);
+            cursor: pointer;
+        }
+
+
     </style>
 
 </head>
@@ -60,16 +86,35 @@
         <h1>Segunda parte da avaliação diagnóstica</h1>
     </div>
 
-    <div class="img">
-        <!-- #exercicio 14 -->
-        <a href="https://www.coca-cola.com.br/"><img id="imagens" src="imagem/Coca-cola_3d_logo.png" alt=""></a>
-        <p>Clique na imagem</p>
+    <div class="navbar">
+        <div>
+            <button id="buttonNavbar"> Home </button>
+        </div>
+
+        <div>
+            <button id="buttonNavbar"> imagens </button>
+        </div>
+
+        <div>
+            <button id="buttonNavbar"> Sobre </button>
+        </div>
     </div>
 
-    <div class="lista">
+    <div class="img">
         <div>
+            <!-- #exercicio 14 -->
+            <a href="https://www.coca-cola.com.br/"><img id="imagens" src="imagem/Coca-cola_3d_logo.png" alt=""></a>
+        </div>
+
+        <div id="">
+            <p> Clique na imagem </p>
+        </div>
+    </div>
+
+    <div class="listas">
+        <div id="lista1">
             <h2>lista 1</h2>
-            <ul id="lista1">
+            <ul>
 
                 <li>pão</li>
                 <li>pão com requeijão</li>
